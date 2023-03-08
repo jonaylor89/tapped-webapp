@@ -3,7 +3,6 @@ import Nav from '@/components/Nav'
 import Testimonials from '@/components/testimonials'
 import Landing from '@/components/landing'
 import Affiliate from '@/components/affiliate'
-import Events from '@/components/events'
 import Footer from '@/components/footer'
 
 export default function Home() {
