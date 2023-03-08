@@ -24,7 +24,6 @@ export default function Home() {
         <Landing />
         <Testimonials />
         <Affiliate />
-        <Events />
       </main>
       <Footer />
     </>
