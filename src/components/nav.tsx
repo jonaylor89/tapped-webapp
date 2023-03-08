@@ -30,7 +30,6 @@ export default function Nav() {
                 <NavBarItem label="HOME" tag="home" />
                 <NavBarItem label="TESTIMONIALS" tag="testimonials" />
                 <NavBarItem label="AFFILIATE" tag='affiliate' />
-                <NavBarItem label="EVENTS" tag='events' />
             </div>
         </nav>
     );
