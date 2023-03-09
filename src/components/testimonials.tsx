@@ -37,8 +37,8 @@ export default function Testimonials() {
                     />
 
                     <div className="">
-                        <div className="flex justify-end">
-                            <h2 className="text-3xl md:text-5xl lg:text-8xl mx-20 pb-10 font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-orange-500">
+                        <div className="flex justify-center md:justify-end">
+                            <h2 className="text-3xl md:text-5xl lg:text-8xl mx-5 md:mx-20 pb-10 font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-orange-500">
                                 Verify your experience
                             </h2>
                         </div>
@@ -52,7 +52,7 @@ export default function Testimonials() {
                 </div>
                 <div className="lg:h-screen md:grid md:grid-cols-2 bg-black">
                     <div>
-                        <div className="flex justify-end md:justify-start">
+                        <div className="flex justify-center md:justify-start">
                             <h2 className="text-3xl md:text-4xl lg:text-6xl pb-12 mx-5 font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-blue-600">
                                 Transforming how <br />talent is discovered
                             </h2>
