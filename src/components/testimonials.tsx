@@ -6,7 +6,7 @@ const Testimonial = ({ name, text }: {
 }) => {
     return (
         <div className="mx-2 bg-black px-5 rounded-md">
-            <p className="text-grey-300 text-lg lg:text-xl italic">&quot;{text}&quot;</p>
+            <p className="text-grey-300 text-lg lg:text-xl italic font-thin">&quot;{text}&quot;</p>
             <div className="flex justify-end">
                 <h3 className="font-bold text-2xl lg:text-4xl py-2 text-tapped-blue">- {name}</h3>
             </div>
