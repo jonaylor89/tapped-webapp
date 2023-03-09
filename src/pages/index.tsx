@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Nav from '@/components/Nav'
+// import Nav from '@/components/Nav'
 import Testimonials from '@/components/testimonials'
 import Landing from '@/components/landing'
 import Affiliate from '@/components/affiliate'
@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#4a4a4a"></meta>
       </Head>
-      <Nav />
+      {/* <Nav /> */}
       <main>
         <Landing />
         <Testimonials />

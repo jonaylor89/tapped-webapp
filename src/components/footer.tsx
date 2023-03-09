@@ -35,11 +35,11 @@ export default function Footer() {
                 <br />
                 <div className="flex justify-center mt-5">
                     Contact the team at
-                    <a className="font-bold px-3 text-blue-500 hover:scale-105 ease-in" href="mailto:tappednetwork@gmail.com">
+                    <a className="font-bold px-1 text-blue-500" href="mailto:tappednetwork@gmail.com">
                         tappednetwork@gmail.com
                     </a>
                 </div>
-                <div className="flex justify-center text-sm font-light">
+                <div className="flex justify-center text-sm font-light mb-5">
                     Tapped Network LLC {new Date().getFullYear()}
                 </div>
             </footer>
