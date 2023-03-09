@@ -4,6 +4,7 @@ import Testimonials from '@/components/testimonials'
 import Landing from '@/components/landing'
 import Affiliate from '@/components/affiliate'
 import Footer from '@/components/footer'
+import FloatingActionButton from '@/components/fab'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       </Head>
       {/* <Nav /> */}
       <main>
+        <FloatingActionButton />
         <Landing />
         <Testimonials />
         <Affiliate />
