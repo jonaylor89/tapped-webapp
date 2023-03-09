@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 const Testimonial = ({ name, text }: {
     name: string;
@@ -5,9 +6,9 @@ const Testimonial = ({ name, text }: {
 }) => {
     return (
         <div className="mx-2 bg-black px-5 rounded-md">
-            <p className="text-grey-300 text-2xl">&quot;{text}&quot;</p>
+            <p className="text-grey-300 text-lg lg:text-xl italic">&quot;{text}&quot;</p>
             <div className="flex justify-end">
-                <h3 className="font-bold text-5xl py-2 text-tapped-blue">- {name}</h3>
+                <h3 className="font-bold text-2xl lg:text-4xl py-2 text-tapped-blue">- {name}</h3>
             </div>
         </div>
     );
@@ -24,30 +25,55 @@ export default function Testimonials() {
     return (
         <>
             <section id="testimonials">
-                <div className="h-screen flex flex-col bg-black">
-                    <div className="flex justify-end">
-                        <h2 className="text-8xl mx-20 py-10 font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-orange-500">
-                            Verify your experience
-                        </h2>
-                    </div>
-                    <div className="flex flex-row justify-between mb-12">
-                        <Testimonial name={daytyme.name} text={daytyme.text} />
-                    </div>
-                    <div className="mb-12">
-                        <Testimonial name={els.name} text={els.text} />
+                <div className="lg:h-screen md:grid md:grid-cols-2 bg-black">
+                    <Image
+                        src="/images/charles.png"
+                        alt="avid shots"
+                        sizes="(max-width: 768px) 100vw,
+                                    50vw"
+                        className="object-cover w-[45vw] hidden md:block"
+                        width={500}
+                        height={2400}
+                    />
+
+                    <div className="">
+                        <div className="flex justify-end">
+                            <h2 className="text-3xl md:text-5xl lg:text-8xl mx-20 pb-10 font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-orange-500">
+                                Verify your experience
+                            </h2>
+                        </div>
+                        <div className="flex flex-row justify-between mb-12">
+                            <Testimonial name={daytyme.name} text={daytyme.text} />
+                        </div>
+                        <div className="mb-12">
+                            <Testimonial name={els.name} text={els.text} />
+                        </div>
                     </div>
                 </div>
-                <div className="h-screen flex flex-col bg-black">
-                    <div className="flex justify-start">
-                        <h2 className="text-8xl p-12 font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-blue-600">
-                            Transforming how <br />talent is discovered
-                        </h2>
-                    </div>
+                <div className="lg:h-screen md:grid md:grid-cols-2 bg-black">
                     <div>
-                        <Testimonial name={scott.name} text={scott.text} />
+                        <div className="flex justify-end md:justify-start">
+                            <h2 className="text-3xl md:text-4xl lg:text-6xl pb-12 mx-5 font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-blue-600">
+                                Transforming how <br />talent is discovered
+                            </h2>
+                        </div>
+                        <div className="mb-12">
+                            <Testimonial name={scott.name} text={scott.text} />
+                        </div>
+                        <div className="mb-12">
+                            <Testimonial name={joaquin.name} text={joaquin.text} />
+                        </div>
                     </div>
-                    <div>
-                        <Testimonial name={joaquin.name} text={joaquin.text} />
+                    <div className="flex justify-end mb-5">
+                        <Image
+                            src="/images/charles_live.png"
+                            alt="avid shots"
+                            sizes="(max-width: 768px) 100vw,
+                                    50vw"
+                            className="object-contain w-[45vw] hidden md:block"
+                            width={500}
+                            height={2000}
+                        />
                     </div>
                 </div>
             </section>

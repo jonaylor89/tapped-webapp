@@ -34,7 +34,7 @@ export default function Footer() {
                 </div>
                 <br />
                 <div className="flex justify-center mt-5">
-                    Contact the team at
+                    Contact us at
                     <a className="font-bold px-1 text-blue-500" href="mailto:tappednetwork@gmail.com">
                         tappednetwork@gmail.com
                     </a>
