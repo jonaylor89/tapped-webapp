@@ -19,6 +19,12 @@ export const items = [
         "link": "https://twitter.com/tappednetwork"// twitter profile link 
     },
     {
+        "title": "TikTok",
+        "subtitle": "Follow us on TikTok!",
+        "image": "/images/tiktok.jpg",
+        "link": "https://tiktok.com/@tappedapp"
+    },
+    {
         "title": "Instagram",
         "subtitle": "@tappednetwork | Don't forget to follow us 😉",
         "image": "/images/instagram.png",
@@ -29,11 +35,5 @@ export const items = [
         "subtitle": "we're open-source!",
         "image": "/images/github.png",
         "link": "https://github.com/InTheLoopStudio" //Github Profile link
-    },
-    {
-        "title": "TikTok",
-        "subtitle": "Follow us on TikTok!",
-        "image": "/images/tiktok.jpg",
-        "link": "https://tiktok.com/@tappedapp"
     },
 ];
