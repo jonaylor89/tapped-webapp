@@ -5,7 +5,8 @@ export default function Privacy() {
             <div className="pl-24 pr-24">
                 <h1 className="text-6xl mb-10 mt-20">Privacy Policy</h1>
                 <p>
-                    We value your information very much. In this Privacy Policy, we want to help you understand how we treat the information you have shared with us through In The Loop, including our services, our websites in the In The Loop Sutidio domain, our blog, as well as our software (collectively the “Services”). This way, you can make informed decisions about the relationship between us and you. So please read it carefully.
+                    We value your information very much. In this Privacy Policy, we want to help you understand how we treat the information you have shared with us through Tapped, including our services, our websites in the Tapped domain, our blog, as well as our software (collectively the “Services”). This way, you can make informed decisions about the relationship between us and you. So please read it carefully.
+
                     By using our Services, you agree to the terms and conditions set forth in this Privacy Policy. This Privacy Policy is incorporated into, and is subject to, our Terms of Service. Throughout this Privacy Policy, we will also refer to terms defined in our Terms of Service.
                 </p>
 
@@ -51,7 +52,7 @@ export default function Privacy() {
                 We collect information on the devices that you use to access our Services. This information includes things like your IP address, web browser and the device that you use, the webpage that linked you to our sites and the identifiers associated with your devices. If you have activated the location service parameters on your devices, these can also send us information about your geographical location;
                 We use “cookies” to collect information and to operate and improve our Services. A cookie is a small data file that we store on your electronic device. We may use “persistent cookies” to record your email and password for when you log on to our Services in the future. We may use “session identifier cookies” to activate certain features of the Services, to better understand and improve your experience with the Services, to track data about the overall use of the Services (length of visits, number of users, etc.) and to optimize the marketing of our Services;
                 Most web browsers allow you to refuse cookies, or ask for your consent before you accept cookies. However, if you do not accept cookies, you might not be able to use all of our Services’ features;
-                We may also combine information that we collect through our Services with information that we collect from other sources. For example, if you log on to your In The Loop account through Google, you give us access to information associated with your Google account .
+                We may also combine information that we collect through our Services with information that we collect from other sources. For example, if you log on to your Tapped account through Google, you give us access to information associated with your Google account .
 
 
                 <h2 className="text-3xl mt-10 mb-5">How we treat Your Information</h2>
@@ -121,7 +122,7 @@ export default function Privacy() {
 
                 <h2 className="text-3xl mt-10 mb-5">Update</h2>
 
-                Our Privacy Policy may be changed occasionally depending on how In The Loop changes. This doesn’t mean that your Personal Information will be at any risk. If we make any such change, we will post a notice to that effect on our website to inform you of the date on which these amendments will come into effect. Therefore, we suggest you keep an eye on our website to stay informed of any possible updates. If you continue using our Services after the changes to our Privacy Policy comes to effect, we will understand it as you acknowledging and accepting the changes. The date of the last update is the one that appears at the bottom of the following page.
+                Our Privacy Policy may be changed occasionally depending on how Tapped changes. This doesn’t mean that your Personal Information will be at any risk. If we make any such change, we will post a notice to that effect on our website to inform you of the date on which these amendments will come into effect. Therefore, we suggest you keep an eye on our website to stay informed of any possible updates. If you continue using our Services after the changes to our Privacy Policy comes to effect, we will understand it as you acknowledging and accepting the changes. The date of the last update is the one that appears at the bottom of the following page.
 
                 <h2 className="text-3xl mt-10 mb-5">Contact Information</h2>
 
