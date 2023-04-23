@@ -1,5 +1,6 @@
-import { useState } from "react";
 import Image from "next/image";
+import { items } from "../items";
+import Card from "./card";
 
 export default function Landing() {
 
@@ -7,7 +8,7 @@ export default function Landing() {
         <>
             <div
                 id="home"
-                className="flex h-screen"
+                className="flex md:h-screen"
             >
                 <div className="m-auto">
                     <div className="flex justify-center">
@@ -18,9 +19,21 @@ export default function Landing() {
                             height={300}
                         />
                     </div>
-                    <h1 className="font-bold py-20 text-2xl lg:text-6xl">
-                        Know who you&apos;re working with
-                    </h1>
+                    <div className="grid grid-cols-1 lg:grid-cols-3 md:mt-12">
+                        {
+                            items.map((item, i) => {
+                                return (
+                                    <Card
+                                        key={i}
+                                        i={i}
+                                        title={item.title}
+                                        subtitle={item.subtitle}
+                                        link={item.link}
+                                        cover={item.image} />
+                                )
+                            })
+                        }
+                    </div>
                 </div>
             </div>
         </>
