@@ -30,4 +30,10 @@ export const items = [
         "image": "/images/github.png",
         "link": "https://github.com/InTheLoopStudio" //Github Profile link
     },
+    {
+        "title": "TikTok",
+        "subtitle": "Follow us on TikTok!",
+        "image": "/images/tiktok.jpg",
+        "link": "https://tiktok.com/@tappedapp"
+    },
 ];
