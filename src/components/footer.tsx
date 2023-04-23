@@ -1,4 +1,5 @@
 
+import Link from "next/link";
 import {
     AiFillTwitterCircle,
     AiFillInstagram,
@@ -40,9 +41,9 @@ export default function Footer() {
                     </a>
                 </div>
                 <div className="flex justify-center mt-5">
-                    <a className="font-bold px-1 text-blue-500" href="/privacy">
+                    <Link className="font-bold px-1 text-blue-500" href="/privacy">
                         Privacy Policy
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex justify-center text-sm font-light mb-5">
                     Tapped Network LLC {new Date().getFullYear()}
