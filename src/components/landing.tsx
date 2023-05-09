@@ -20,7 +20,7 @@ export default function Landing() {
                         />
                     </div>
                     <div className="flex justify-center font-bold md:text-4xl pr-4 pl-4 md:pr-20 md:pl-20 text-center">
-                    Tapped is a social platform for the entertainment industry where individuals can network, sign up as freelancers, and promote their portfolio.
+                    a social platform for the entertainment industry where individuals can network, secure gigs, and promote their portfolio.
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-3 md:mt-12">
                         {

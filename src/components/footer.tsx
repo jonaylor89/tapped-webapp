@@ -37,7 +37,7 @@ export default function Footer() {
                 <div className="flex justify-center mt-5">
                     Contact us at
                     <a className="font-bold px-1 text-blue-500" href="mailto:tappednetwork@gmail.com">
-                        tappednetwork@gmail.com
+                        support@tapped.ai
                     </a>
                 </div>
                 <div className="flex justify-center mt-5">
@@ -46,7 +46,7 @@ export default function Footer() {
                     </Link>
                 </div>
                 <div className="flex justify-center text-sm font-light mb-5">
-                    Tapped Network LLC {new Date().getFullYear()}
+                    Tapped App LLC {new Date().getFullYear()}
                 </div>
             </footer>
         </>
