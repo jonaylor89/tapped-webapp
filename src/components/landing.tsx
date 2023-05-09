@@ -11,13 +11,16 @@ export default function Landing() {
                 className="flex md:h-screen"
             >
                 <div className="m-auto">
-                    <div className="flex justify-center">
+                    <div className="flex justify-center pb-6 pt-6">
                         <Image
                             src="/images/tapped_reverse.png"
                             alt="tapped logo"
-                            width={300}
-                            height={300}
+                            width={150}
+                            height={150}
                         />
+                    </div>
+                    <div className="flex justify-center font-bold md:text-4xl pr-4 pl-4 md:pr-20 md:pl-20 text-center">
+                    Tapped is a social platform for the entertainment industry where individuals can network, sign up as freelancers, and promote their portfolio.
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-3 md:mt-12">
                         {
