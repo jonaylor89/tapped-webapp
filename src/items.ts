@@ -12,28 +12,4 @@ export const items = [
         "image": "/images/playstore.png",
         "link": "https://play.google.com/store/apps/developer?id=John+Naylor"// google play linik
     },
-    {
-        "title": "Twitter",
-        "subtitle": "@tappednetwork | Don't forget to follow us 😉",
-        "image": "/images/twitter.png",
-        "link": "https://twitter.com/tappednetwork"// twitter profile link 
-    },
-    {
-        "title": "TikTok",
-        "subtitle": "Follow us on TikTok!",
-        "image": "/images/tiktok.jpg",
-        "link": "https://tiktok.com/@tappedapp"
-    },
-    {
-        "title": "Instagram",
-        "subtitle": "@tappednetwork | Don't forget to follow us 😉",
-        "image": "/images/instagram.png",
-        "link": "https://instagram.com/tappednetwork"// instagram profile link 
-    },
-    {
-        "title": "GitHub",
-        "subtitle": "we're open-source!",
-        "image": "/images/github.png",
-        "link": "https://github.com/InTheLoopStudio" //Github Profile link
-    },
 ];

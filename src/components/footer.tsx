@@ -31,7 +31,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="flex justify-center">
-                    Made with 💜 in Richmond, Virginia 
+                    Made with 💙 in Richmond, Virginia 
                 </div>
                 <br />
                 <div className="flex justify-center mt-5">

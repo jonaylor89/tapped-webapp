@@ -15,14 +15,14 @@ export default function Landing() {
                         <Image
                             src="/images/tapped_reverse.png"
                             alt="tapped logo"
-                            width={150}
-                            height={150}
+                            width={300}
+                            height={300}
                         />
                     </div>
                     <div className="flex justify-center font-bold md:text-4xl pr-4 pl-4 md:pr-20 md:pl-20 text-center">
-                    a social platform for the entertainment industry where individuals can network, secure gigs, and promote their portfolio.
+                    network with professionals, secure gigs, and promote your portfolio.
                     </div>
-                    <div className="grid grid-cols-1 lg:grid-cols-3 md:mt-12">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 md:mt-12 mr-30 ml-30">
                         {
                             items.map((item, i) => {
                                 return (
