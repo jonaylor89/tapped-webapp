@@ -3,7 +3,108 @@ export default function Privacy() {
     return (
         <>
             <div className="pl-24 pr-24">
+
                 <h1 className="text-6xl mb-10 mt-20">Privacy Policy</h1>
+
+                <p>
+                    Tapped (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is committed to protecting the privacy of our users. This Privacy Policy (&quot;Policy&quot;) outlines how we collect, use, and disclose your information when you use our Tapped mobile application (&quot;App&quot;) available on the iTunes App Store.
+                </p>
+
+                <p>
+                    By using our App, you agree to the collection and use of information in accordance with this Policy. If you do not agree with any part of this Policy, please do not use our App.
+                </p>
+
+                <h2 className="text-3xl mt-10 mb-5">Information We Collect</h2>
+
+                <h3 className="text-xl mt-5 mb-3">
+                    a. User-Provided Information
+                </h3>
+
+                <p>
+                    When you use our App, you may provide us with information, such as your name, email address, profile picture, and any other information you choose to share. This also includes the content you post on the App, such as pictures, loops, and music clips.
+                </p>
+
+                <h3 className="text-xl mt-5 mb-3">
+                    b. Automatically Collected Information
+                </h3>
+
+                <p>
+                    We may automatically collect certain information when you use our App, including:
+                </p>
+
+                <p>
+                    Usage data, such as the pages you visit, the duration of your visit, and the actions you perform on our App.
+                    Device data, such as your device&apos;s model, operating system, browser type, and unique device identifier.
+                    Location data, such as your device&apos;s IP address and, with your consent, more precise location information.
+                    How We Use Your Information
+                    We use the information we collect for the following purposes:
+                </p>
+
+                <p>
+                    To provide, maintain, and improve our App.
+                </p>
+                <p>
+                    To monitor and analyze usage and trends to enhance the user experience.
+                </p>
+                <p>
+                    To personalize and tailor the content and features we provide to you.
+                </p>
+                <p>
+                    To communicate with you, including sending you notifications, updates, and promotional materials.
+                </p>
+                <p>
+                    To protect the safety and security of our users and enforce our Terms of Service.
+                </p>
+                <p>
+                    To comply with applicable laws and regulations.
+                </p>
+
+
+                <h2 className="text-3xl mt-10 mb-5">Sharing Your Information</h2>
+                <p>
+                    We do not sell or rent your personal information to third parties. However, we may share your information in the following circumstances:
+                </p>
+
+                <p>
+                    With your consent or when you choose to share information through our App.
+                </p>
+                <p>
+                    With third-party service providers that help us operate, maintain, and improve our App.
+                </p>
+                <p>
+                    In connection with a merger, acquisition, or sale of assets involving Tapped, in which case your information may be transferred to the acquiring party.
+                </p>
+                <p>
+                    If required by law, such as in response to a subpoena, court order, or other legal process.
+                </p>
+
+
+                <h2 className="text-3xl mt-10 mb-5">Your Rights and Choices</h2>
+                <p>
+                    As a user of our App, you own all of the content you post. You may access, update, or delete your personal information at any time by accessing your account settings.
+                </p>
+
+                <h2 className="text-3xl mt-10 mb-5">Data Retention and Security</h2>
+                We retain your information for as long as necessary to provide our services to you or to comply with legal obligations. We take appropriate measures to protect your information from unauthorized access, disclosure, or alteration.
+
+                <h2 className="text-3xl mt-10 mb-5">Changes to This Privacy Policy</h2>
+                We may update this Policy from time to time. When we make changes, we will update the &quot;Last updated&quot; date at the top of this Policy. Your continued use of our App after any changes constitutes your acceptance of the updated Policy.
+
+                <h2 className="text-3xl mt-10 mb-5">Contact Us</h2>
+                If you have any questions or concerns about this Policy or our privacy practices, please contact us at:
+
+                <div className="flex justify-center mt-5">
+                    Tapped Support:
+                    <a className="font-bold px-1 text-blue-500" href="mailto:support@tapped.ai">
+                        support@tapped.ai
+                    </a>
+                </div>
+
+                <div className="flex justify-center mt-10 mb-20">
+                    This Privacy Policy was last updated on May 8, 2023
+                </div>
+
+                {/* 
                 <p>
                     We value your information very much. In this Privacy Policy, we want to help you understand how we treat the information you have shared with us through Tapped, including our services, our websites in the Tapped domain, our blog, as well as our software (collectively the “Services”). This way, you can make informed decisions about the relationship between us and you. So please read it carefully.
 
@@ -129,15 +230,15 @@ export default function Privacy() {
                 If you have any comments, any questions or any inquiry about this Policy or your Personal Information, please contact our Privacy Officer (or Data Protection Officer) by mail or email using the following contact information:
 
                 <div className="flex justify-center mt-5">
-                    Contact us at
+                    Tapped Support
                     <a className="font-bold px-1 text-blue-500" href="mailto:tappednetwork@gmail.com">
-                        tappednetwork@gmail.com
+                        support@tapped.ai
                     </a>
                 </div>
 
                 <div className="flex justify-center mt-10 mb-20">
-                    This Privacy Policy was last updated on June 24 2021
-                </div>
+                    This Privacy Policy was last updated on May 8, 2023
+                </div> */}
             </div>
         </>
     );
