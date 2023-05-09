@@ -60,6 +60,14 @@ export default function Privacy() {
                 </p>
 
 
+                <h2 className="text-3xl mt-10 mb-5">Payment Information</h2>
+                <p>
+                    If you choose to make a payment through our Services, we may collect and store your payment card information. We use third-party payment processors to process payments, and we do not store or have access to your full payment card information. These payment processors are required to use appropriate measures to protect your payment card information in accordance with industry standards.
+                </p>
+
+
+
+
                 <h2 className="text-3xl mt-10 mb-5">Sharing Your Information</h2>
                 <p>
                     We do not sell or rent your personal information to third parties. However, we may share your information in the following circumstances:
