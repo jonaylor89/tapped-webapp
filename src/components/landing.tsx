@@ -11,7 +11,7 @@ export default function Landing() {
                 className="flex md:h-screen"
             >
                 <div className="m-auto">
-                    <div className="flex justify-center pb-6 pt-6">
+                    <div className="flex justify-center pb-16 pt-4">
                         <Image
                             src="/images/tapped_reverse.png"
                             alt="tapped logo"
@@ -19,8 +19,11 @@ export default function Landing() {
                             height={300}
                         />
                     </div>
-                    <div className="flex justify-center font-bold md:text-4xl pr-4 pl-4 md:pr-20 md:pl-20 text-center">
+                    <div className="flex justify-center font-bold md:text-6xl pr-8 pl-8 md:pr-32 md:pl-32 text-center">
                     network with professionals, secure gigs, and promote your portfolio.
+                    </div>
+                    <div className="flex justify-center md:text-2xl pt-8">
+                        raising $300,000 💰 located in nyc 📍 1.5k users 🫂 live on app store this summer 📱
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 md:mt-12 mr-30 ml-30">
                         {
