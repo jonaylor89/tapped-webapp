@@ -11,7 +11,7 @@ import { FaTiktok } from "react-icons/fa";
 export default function Footer() {
     return (
         <>
-            <footer>
+            <footer id="footer">
                 {/* TODO  add on-hover interactions */}
                 <div className="flex flex-row justify-center items-center">
                     <div className="px-3 py-3 hover:scale-110">

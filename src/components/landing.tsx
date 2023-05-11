@@ -1,44 +1,49 @@
 import Image from "next/image";
-import { items } from "../items";
-import Card from "./card";
+
+import {
+    GooglePlayButton,
+    AppStoreButton,
+} from "@/components/react-mobile-app-button";
 
 export default function Landing() {
+
+    const appleUrl = "https://testflight.apple.com/join/TbVZMGhA"
+    const googleUrl = "https://play.google.com/store/apps/details?id=com.intheloopstudio"
 
     return (
         <>
             <div
                 id="home"
-                className="flex md:h-screen"
+                className="flex md:h-screen bg-gradient-to-r from-blue-500 to-cyan-500"
             >
-                <div className="m-auto">
-                    <div className="flex justify-center pb-16 pt-4">
+                <div className="pb-20">
+                    <div className="flex mb-16 pb-4 pt-4 pl-4 backdrop-blur-sm bg-white/30 ">
                         <Image
-                            src="/images/tapped_reverse.png"
+                            src="/images/icon_1024.png"
                             alt="tapped logo"
-                            width={300}
-                            height={300}
+                            width={50}
+                            height={50}
                         />
                     </div>
-                    <div className="flex justify-center font-bold md:text-6xl pr-8 pl-8 md:pr-32 md:pl-32 text-center">
-                    network with professionals, secure gigs, and promote your portfolio.
-                    </div>
-                    <div className="flex justify-center md:text-2xl pt-8 pr-8 pl-8 text-center">
-                        raising $300,000 💰 located in nyc 📍 1.5k users 🫂 live on app store this summer 📱
-                    </div>
-                    <div className="grid grid-cols-1 lg:grid-cols-2 md:mt-12 mr-30 ml-30">
-                        {
-                            items.map((item, i) => {
-                                return (
-                                    <Card
-                                        key={i}
-                                        i={i}
-                                        title={item.title}
-                                        subtitle={item.subtitle}
-                                        link={item.link}
-                                        cover={item.image} />
-                                )
-                            })
-                        }
+                    <div className="md:pl-12 md:pr-12 lg:pl-32 lg:pr-36">
+
+                        <h1 className="flex justify-center text-2xl md:text-8xl lg:text-9xl tracking-tighter md:justify-start ">
+                            FIND, BOOK, AND PAY TALENT IN 3 TAPS
+                        </h1>
+                        <div className="flex justify-center md:text-2xl pt-8 pb-8 text-center md:text-start md:justify-start">
+                            raising $300,000 💰 located in nyc 📍 1.5k users 🫂 live on app store this summer 📱
+                        </div>
+
+                        <div className="flex justify-center items-center flex-col md:flex-row gap-4 md:justify-start">
+                            <GooglePlayButton
+                                url={googleUrl}
+                                theme={"dark"}
+                            />
+                            <AppStoreButton
+                                url={appleUrl}
+                                theme={"dark"}
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

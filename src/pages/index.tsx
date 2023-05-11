@@ -1,8 +1,5 @@
 import Head from 'next/head'
-// import Nav from '@/components/Nav'
-import Testimonials from '@/components/testimonials'
 import Landing from '@/components/landing'
-import Affiliate from '@/components/affiliate'
 import Footer from '@/components/footer'
 import FloatingActionButton from '@/components/fab'
 
@@ -50,8 +47,6 @@ export default function Home() {
       <main>
         <FloatingActionButton />
         <Landing />
-        <Testimonials />
-        <Affiliate />
       </main>
       <Footer />
     </>
