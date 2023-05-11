@@ -15,17 +15,17 @@ export default function Footer() {
                 {/* TODO  add on-hover interactions */}
                 <div className="flex flex-row justify-center items-center">
                     <div className="px-3 py-3 hover:scale-110">
-                        <a href="https://twitter.com/tappednetwork" target="_blank" rel="noopener noreferrer">
+                        <a href="https://twitter.com/tappedapp" target="_blank" rel="noopener noreferrer">
                             <AiFillTwitterCircle fontSize={28} color="#fff " />
                         </a>
                     </div>
                     <div className="px-3 py-3 hover:scale-110">
-                        <a href="https://instagram.com/tappednetwork" target="_blank" rel="noopener noreferrer">
+                        <a href="https://instagram.com/tapped.app" target="_blank" rel="noopener noreferrer">
                             <AiFillInstagram fontSize={28} color="#fff" />
                         </a>
                     </div>
                     <div className="px-3 py-3 hover:scale-110">
-                        <a href="https://tiktok.com/@tappednetwork" target="_blank" rel="noopener noreferrer">
+                        <a href="https://tiktok.com/@tappedapp" target="_blank" rel="noopener noreferrer">
                             <FaTiktok fontSize={24} />
                         </a>
                     </div>
