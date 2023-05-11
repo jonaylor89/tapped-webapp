@@ -16,7 +16,7 @@ export default function Landing() {
                 id="home"
                 className="flex md:h-screen bg-gradient-to-r from-blue-500 to-cyan-500"
             >
-                <div className="pb-20">
+                <div className="pb-20 w-full">
                     <div className="flex mb-16 pb-4 pt-4 pl-4 backdrop-blur-sm bg-white/30 ">
                         <Image
                             src="/images/icon_1024.png"
