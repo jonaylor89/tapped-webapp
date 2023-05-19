@@ -28,7 +28,7 @@ export default function Landing() {
                     <div className="md:pl-12 md:pr-12 lg:pl-32 lg:pr-36">
 
                         <h1 className="flex justify-center text-center md:text-start text-2xl md:text-8xl lg:text-9xl tracking-tighter md:justify-start">
-                            FIND, BOOK, AND PAY TALENT IN 3 TAPS
+                            FIND, BOOK, AND REVIEW TALENT IN 3 TAPS
                         </h1>
                         <div className="flex justify-center md:text-2xl pt-8 pb-8 text-center md:text-start md:justify-start">
                             raising $300,000 💰 located in nyc 📍 1.5k users 🫂 live on app store this summer 📱
