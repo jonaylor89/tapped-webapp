@@ -1,4 +1,6 @@
 
+import Link from "next/link";
+
 export default function About() {
     return (
         <>
@@ -69,6 +71,15 @@ export default function About() {
                 <br />
                 <div>
                     Join Tapped today and unlock the full potential of your music industry career. Connect, collaborate, and discover new opportunities that will elevate your professional journey. Together, let&apos;s shape the future of the music industry!
+                </div>
+
+                <div className="flex justify-center pt-4">
+                    <Link href="/download">
+                        <button className="bg-blue-500 hover:bg-blue-400 text-white hover:text-gray-800 font-bold py-2 px-4 rounded-full inline-flex items-center">
+                            <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
+                            <span>Download the App</span>
+                        </button>
+                    </Link>
                 </div>
 
                 <div className="pt-10 md:pl-24 md:pr-24 lg:pl-44 lg:pr-44">
