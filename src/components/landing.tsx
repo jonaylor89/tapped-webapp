@@ -1,14 +1,7 @@
 import Image from "next/image";
-
-import {
-    GooglePlayButton,
-    AppStoreButton,
-} from "@/components/react-mobile-app-button";
+import Link from "next/link";
 
 export default function Landing() {
-
-    const appleUrl = "https://testflight.apple.com/join/TbVZMGhA"
-    const googleUrl = "https://play.google.com/store/apps/details?id=com.intheloopstudio"
 
     return (
         <>
@@ -35,14 +28,15 @@ export default function Landing() {
                         </div>
 
                         <div className="flex justify-center items-center flex-col md:flex-row gap-4 md:justify-start">
-                            <GooglePlayButton
-                                url={googleUrl}
-                                theme={"dark"}
-                            />
-                            <AppStoreButton
-                                url={appleUrl}
-                                theme={"dark"}
-                            />
+                            <Link href="/download">
+                                <button className="bg-gray-800 hover:bg-gray-400 text-gray-300 hover:text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                                    <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
+                                    <span>Download</span>
+                                </button>
+                            </Link>
+                            <Link href="/about">
+                                <button className="hover:font-bold">Learn More</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
