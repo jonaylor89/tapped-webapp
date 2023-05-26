@@ -70,10 +70,10 @@ export default function About() {
                 </div>
                 <br />
                 <div className="text-center md:text-start md:text-xl font-thin text-gray-300">
-                    Join Tapped today and unlock the full potential 
-                    of your music industry career. 
-                    Connect, collaborate, and discover new 
-                    opportunities that will elevate your professional journey. 
+                    Join Tapped today and unlock the full potential
+                    of your music industry career.
+                    Connect, collaborate, and discover new
+                    opportunities that will elevate your professional journey.
                     Together, let&apos;s shape the future of the music industry!
                 </div>
 
@@ -91,21 +91,26 @@ export default function About() {
                         Q: How do I join Tapped?
                     </div>
                     <div className="text-center md:text-start text-xl font-bold text-gray-500">
-                        A: Signing up for Tapped is quick and easy! Simply visit our website and create your account to start connecting with professionals in the music industry.
+                        A: Signing up for Tapped is quick and easy!
+                        Simply download the app and create your account to start
+                        connecting with professionals in the music industry.
                     </div>
 
                     <div className="text-center md:text-start text-2xl font-bold mt-4 mb-4">
                         Q: Is Tapped only for established professionals, or can newcomers join too?
                     </div>
                     <div className="text-center md:text-start text-xl font-bold text-gray-500">
-                        A: Tapped welcomes professionals at all stages of their music careers. Whether you&apos;re a seasoned executive or a budding artist, our platform offers valuable resources and opportunities for everyone.
+                        A: Tapped welcomes professionals at all stages of their music careers.
+                        Whether you&apos;re a seasoned executive or a budding artist, our platform 
+                        offers valuable resources and opportunities for everyone.
                     </div>
                     <div className="text-center md:text-start text-2xl font-bold mt-4 mb-4">
 
                         Q: Is Tapped available as a mobile app?
                     </div>
                     <div className="text-center md:text-start text-xl font-bold text-gray-500">
-                        A: Yes! Tapped is available as a mobile app for both iOS and Android devices, ensuring that you can stay connected and engaged while on the go.
+                        A: Yes! Tapped is available as a mobile app for both iOS and Android devices, 
+                        ensuring that you can stay connected and engaged while on the go.
                     </div>
                 </div>
             </div>
