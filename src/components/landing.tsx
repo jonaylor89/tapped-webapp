@@ -34,7 +34,7 @@ export default function Landing() {
                                     <span>Download</span>
                                 </button>
                             </Link>
-                            <Link href="/about">
+                            <Link href="/more">
                                 <button className="hover:font-bold">Learn More</button>
                             </Link>
                         </div>
