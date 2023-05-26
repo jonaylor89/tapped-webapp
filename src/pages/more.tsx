@@ -79,7 +79,7 @@ export default function About() {
 
                 <div className="flex justify-center pt-4">
                     <Link href="/download">
-                        <button className="bg-blue-500 hover:bg-blue-400 text-white hover:text-gray-800 font-bold py-2 px-4 rounded-full inline-flex items-center">
+                        <button className="bg-blue-500 hover:bg-blue-400 text-white hover:text-gray-800 font-bold py-2 px-4 rounded-full inline-flex items-center duration-300">
                             <span>Join the App</span>
                         </button>
                     </Link>
