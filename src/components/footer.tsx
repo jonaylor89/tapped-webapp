@@ -46,7 +46,7 @@ export default function Footer() {
                     </Link>
                 </div>
                 <div className="flex justify-center text-sm font-light mb-5">
-                    Tapped App LLC {new Date().getFullYear()}
+                   &#169; Tapped App Inc. {new Date().getFullYear()}
                 </div>
             </footer>
         </>
