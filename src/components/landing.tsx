@@ -24,7 +24,7 @@ export default function Landing() {
                             FIND, BOOK, AND REVIEW TALENT IN 3 TAPS
                         </h1>
                         <div className="flex justify-center md:text-2xl pt-8 pb-8 text-center md:text-start md:justify-start">
-                            raising $300,000 💰 located in nyc 📍 1.5k users 🫂 live on app store this summer 📱
+                            raising $500,000 💰 located in nyc 📍 1.5k users 🫂 live on app store this summer 📱
                         </div>
 
                         <div className="flex justify-center items-center flex-col md:flex-row gap-4 md:justify-start">
