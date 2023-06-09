@@ -7,10 +7,10 @@ export default function Landing() {
         <>
             <div
                 id="home"
-                className="flex md:h-screen bg-gradient-to-r from-blue-500 to-cyan-500"
+                className="flex md:h-screen bg-gradient-to-br from-blue-500 to-cyan-400"
             >
                 <div className="pb-20 w-full">
-                    <div className="flex mb-16 pb-4 pt-4 pl-4 backdrop-blur-sm bg-white/30 ">
+                    <div className="flex mb-4 pb-4 pt-4 pl-4">
                         <Image
                             src="/images/icon_1024.png"
                             alt="tapped logo"
@@ -20,14 +20,22 @@ export default function Landing() {
                     </div>
                     <div className="md:pl-12 md:pr-12 lg:pl-32 lg:pr-36">
 
-                        <h1 className="flex justify-center text-center md:text-start text-2xl md:text-8xl lg:text-9xl tracking-tighter md:justify-start">
+                        <h1 className="flex 
+                            justify-center 
+                            text-center 
+                            md:text-start 
+                            text-2xl 
+                            md:text-8xl 
+                            lg:text-9xl 
+                            tracking-tighter 
+                            md:justify-start">
                             DISCOVER. <br />
                             BOOK. <br />
                             REVIEW.
                         </h1>
-                        <div className="flex justify-center md:text-2xl pt-8 pb-8 text-center md:text-start md:justify-start">
+                        <p className="flex justify-center md:text-2xl pt-8 pb-8 text-center md:text-start md:justify-start">
                             raising $500,000 💰 located in nyc 📍 1.5k users 🫂 live on app store this summer 📱
-                        </div>
+                        </p>
 
                         <div className="flex justify-center items-center flex-col md:flex-row gap-4 md:justify-start">
                             <Link href="/download">

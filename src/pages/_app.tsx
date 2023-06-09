@@ -2,7 +2,7 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { Analytics } from '@vercel/analytics/react';
 
-import { Manrope, Inter, Outfit } from 'next/font/google'
+import { Manrope, Inter, Outfit, Nunito_Sans } from 'next/font/google'
 
 const manrope = Manrope({
   weight: '800',
@@ -17,6 +17,11 @@ const outfit = Outfit({
   subsets: ['latin'],
 })
 
+const nunito = Nunito_Sans({
+  weight: '400',
+  subsets: ['latin'],
+});
+
 export default function App({ Component, pageProps }: AppProps) {
 
   return (
@@ -28,7 +33,7 @@ export default function App({ Component, pageProps }: AppProps) {
         }
 
         p {
-          font-family: ${inter.style.fontFamily}
+          font-family: ${nunito.style.fontFamily}
         }
 
     .button-container {
