@@ -38,7 +38,7 @@ export default function Landing() {
                                 streamline your gig bookings with ease: connect with mangement, book talent, and amplify your events!
                             </p>
                             <p className="flex justify-center text-center pb-8 md:text-start md:justify-start">
-                                raising $500,000 💰 located in nyc 📍 1.5k users 🫂 live on app store this summer 📱
+                                raising $500,000 💰 located in nyc 📍 1.5k users 🫂 live on app store 📱
                             </p>
 
                             <div className="flex justify-center items-center flex-col md:flex-row gap-4 md:justify-start">
