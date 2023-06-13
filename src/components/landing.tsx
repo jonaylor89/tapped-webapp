@@ -56,7 +56,7 @@ export default function Landing() {
                             </div>
                         </div>
                         <div className="pt-10 md:pt-0 pr-5 pl-5 md:pr-20 flex justify-center">
-                            <Image src="/images/iphone.png" alt="app mockup" width={600} height={400} />
+                            <Image src="/images/iphone.png" alt="app mockup" width={500} height={400} />
                         </div>
                     </div>
                 </div>
