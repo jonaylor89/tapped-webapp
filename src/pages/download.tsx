@@ -2,7 +2,7 @@ import Image from "next/image";
 import { AppStoreButton, GooglePlayButton } from "@/components/react-mobile-app-button";
 
 export default function Download() {
-    const appleUrl = "https://testflight.apple.com/join/TbVZMGhA"
+    const appleUrl = "https://apps.apple.com/us/app/tapped-network/id1574937614"
     const googleUrl = "https://play.google.com/store/apps/details?id=com.intheloopstudio"
 
     return (
