@@ -32,7 +32,7 @@ export default function Landing() {
                             md:justify-start">
                                 DISCOVER. <br />
                                 BOOK. <br />
-                                REVIEW.
+                                SUCCESS.
                             </h1>
                             <p className="flex justify-center md:text-2xl pt-8 pb-2 text-center md:text-start md:justify-start">
                                 streamline your gig bookings with ease: connect with management, book talent, and amplify your events!
