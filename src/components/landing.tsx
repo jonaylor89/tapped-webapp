@@ -35,7 +35,7 @@ export default function Landing() {
                                 REVIEW.
                             </h1>
                             <p className="flex justify-center md:text-2xl pt-8 pb-2 text-center md:text-start md:justify-start">
-                                streamline your gig bookings with ease: connect with mangement, book talent, and amplify your events!
+                                streamline your gig bookings with ease: connect with management, book talent, and amplify your events!
                             </p>
                             <p className="flex justify-center text-center pb-8 md:text-start md:justify-start">
                                 raising $500,000 💰 located in nyc 📍 1.5k users 🫂 live on app store 📱
