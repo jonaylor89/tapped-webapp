@@ -37,10 +37,6 @@ export default function Landing() {
                             <p className="flex justify-center md:text-2xl pt-8 pb-2 text-center md:text-start md:justify-start">
                                 streamline your gig bookings with ease: connect with management, book talent, and amplify your events!
                             </p>
-                            <p className="flex justify-center text-center pb-8 md:text-start md:justify-start">
-                                raising $500,000 💰 located in nyc 📍 1.5k users 🫂 live on app store 📱
-                            </p>
-
                             <div className="flex justify-center items-center flex-col md:flex-row gap-4 md:justify-start">
                                 <Link href="/download">
                                     <button className="bg-gray-800 hover:bg-gray-400 text-gray-300 hover:text-gray-800 font-bold py-2 px-4 rounded-full inline-flex items-center duration-300">
